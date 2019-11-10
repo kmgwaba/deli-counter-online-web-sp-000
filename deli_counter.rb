@@ -15,5 +15,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  line_queue = ""
+  katz_deli.each_with_index do |name, index|
+    line_queue += " #{name} #{index +1}."
+    
+  end 
   
 end
